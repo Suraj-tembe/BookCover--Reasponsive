@@ -1,0 +1,112 @@
+.parent { overflow: auto; }
+body{
+    text-align: right;
+    font-family:  Arial, Helvetica, sans-serif;
+    max-height: 100vw;
+    min-height: 77vw;
+    width: 55vw;
+    border: 3px solid #ccc;
+    
+    
+}
+
+.boxTop{
+    min-height: 15vw;
+    background: repeating-linear-gradient(-45deg, rgb(200,200,200), rgb(200,200,200) 0.5px, white ,white 2px);
+    position:relative; 
+    direction:rtl; 
+    overflow: hidden;
+}
+h3{
+    margin-top: 0;
+    font-size: 1.5vw;
+    background-color: rgb(60,60,60);
+    display:inline-block;    
+    color:white;
+    padding: 0.3vw 0.5vw  ;
+    position: absolute;
+    left: 4vw;
+    direction: ltr;
+}
+.topPara{
+    display: block;
+    font-size:1.2vw;
+    direction:ltr;
+    max-width:36vw;
+    text-align: right;
+    margin:  1vw 3vw ;
+    position: absolute;
+    color: #3A383B;
+                  
+}
+.profession{
+    font-size:1.2vw;
+    direction:ltr;
+    text-align: right;
+    position: absolute; 
+    top: 6.5vw;
+    right: 3vw;
+    color: #3A383B;
+}
+h2{
+    margin-right: 3vw;
+    font-size: 2.2vw;
+    position: absolute;
+    top: 9vw;
+    transform: scaleY(1.8);
+    color: #3A383B;
+}
+
+.boxMiddle {
+    min-height: 20vw; 
+    margin: 0.5vw 3vw;
+   
+}
+
+.boxMiddle .boxMiddle-text{
+    font-size: 6vw;
+    text-align:right;   
+    margin-top: 0 ;
+    margin-bottom: 0;
+    position: relative;
+    top: 4vw;
+    right: 0.1vw;
+    line-height: 6vw;
+    transform: scaleY(1.8);
+    color: #3A383B;
+           
+}
+.cross{
+    background: repeating-linear-gradient(-45deg, rgb(200,200,200), rgb(200,200,200) 0.5px, white ,white 2px);
+    height: 1.05vw;
+    width: 4vw;
+    position: relative;
+    right: -45vw;
+    top: -3vw;
+}
+.boxBottom {
+    background-color: #F7E032;
+    height:41vw;
+    width: inherit;
+    position: absolute;
+    
+}
+
+.text-JS{
+
+    font-size: 35vw;
+    color: #3A383B;
+    margin: 0 3vw;
+    font-stretch: expanded;        
+}
+
+.boxBottom .inside-text{
+   color:  #F7E032;
+    font-size:2.45vw; 
+    transform: rotate(-90deg);
+    position: relative;
+    left:-3.5vw;
+    top: -8.55vw;
+    
+   
+}
